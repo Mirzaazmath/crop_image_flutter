@@ -6,16 +6,17 @@ A new Flutter project.
 
 
 ### Add Dedepencies
-> image_cropper: any
-> image_picker: any
+> * image_cropper: any
+
+> * image_picker: any
 
 
 ## For IOS Image picker
 > add this in info.plist
-> <key>NSPhotoLibraryUsageDescription</key>
-<string>This App required to access the storage</string>
-<key>NSCameraUsageDescription</key>
-<string>This App required to access the storage</string>
+> *  <key>NSPhotoLibraryUsageDescription</key>
+> *  <string>This App required to access the storage</string>
+> *  <key>NSCameraUsageDescription</key>
+> * <string>This App required to access the storage</string>
 
 
 
@@ -23,15 +24,61 @@ A new Flutter project.
 
 > add this lines in src/main/androidmanifest
 > <activity
-android:name="com.yalantis.ucrop.UCropActivity"
-android:screenOrientation="portrait"
-android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+  <p>  android:name="com.yalantis.ucrop.UCropActivity"
+  android:screenOrientation="portrait"
+  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/> </p>
 
 
 
 ## add Android Permission
 > add this lines in src/main/androidmanifest
 > <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+
+
+# Screenshot1
+
+
+<img src="https://github.com/Mirzaazmath/crop_image_flutter/blob/main/assets/Screenshot1.png" height="400">
+
+
+
+
+
+
+# Screenshot2
+
+
+<img src="https://github.com/Mirzaazmath/crop_image_flutter/blob/main/assets/Screenshot2.png" height="400">
+
+
+
+
+
+# Screenshot3
+
+
+<img src="https://github.com/Mirzaazmath/crop_image_flutter/blob/main/assets/Screenshot3.png" height="400">
+
+
+
+
+
+# Screenshot4
+
+
+<img src="https://github.com/Mirzaazmath/crop_image_flutter/blob/main/assets/Screenshot4.png" height="400">
+
+
+
+
+# Result
+
+
+<img src="https://github.com/Mirzaazmath/crop_image_flutter/blob/main/assets/result.gif" height="400">
+
+
 
 This project is a starting point for a Flutter application.
 
